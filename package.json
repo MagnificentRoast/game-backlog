@@ -1,0 +1,30 @@
+{
+  "name": "game-backlog",
+  "version": "1.0.0",
+  "description": "An application that lets you create a video game backlog, so you won't forget which game to play next!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnificentRoast/game-backlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagnificentRoast/game-backlog/issues"
+  },
+  "homepage": "https://github.com/MagnificentRoast/game-backlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
